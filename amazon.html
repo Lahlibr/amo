@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amazon Project</title>
+
+    <!-- This code is needed for responsive design to work.
+      (Responsive design = make the website look good on
+      smaller screen sizes like a phone or a tablet). -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Load a font called Roboto from Google Fonts. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Here are the CSS files for this page. -->
+    <link rel="stylesheet" href="styles/shared/general.css">
+    <link rel="stylesheet" href="styles/shared/amazon-header.css">
+    <link rel="stylesheet" href="styles/pages/amazon.css">
+  </head>
+  <body>
+    <div class="amazon-header">
+      <div class="amazon-header-left-section">
+        <a href="amazon.html" class="header-link">
+          <img class="amazon-logo"
+            src="images/amazon-logo-white.png">
+          <img class="amazon-mobile-logo"
+            src="images/amazon-mobile-logo-white.png">
+        </a>
+      </div>
+
+      <div class="amazon-header-middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+
+        <button class="search-button">
+          <img class="search-icon" src="images/icons/search-icon.png">
+        </button>
+      </div>
+
+      <div class="amazon-header-right-section">
+        <a class="orders-link header-link" href="orders.html">
+          <span class="returns-text">Returns</span>
+          <span class="orders-text">& Orders</span>
+        </a>
+
+        <a class="cart-link header-link" href="checkout.html">
+          <img class="cart-icon" src="images/icons/cart-icon.png">
+          <div class="cart-quantity">3</div>
+          <div class="cart-text">Cart</div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="main">
+      <div class="products-grid">
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/products/athletic-cotton-socks-6-pairs.jpg">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Black and Gray Athletic Cotton Socks - 6 Pairs
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              87
+            </div>
+          </div>
+
+          <div class="product-price">
+            $10.90
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/products/intermediate-composite-basketball.jpg">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Intermediate Size Basketball
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-40.png">
+            <div class="product-rating-count link-primary">
+              127
+            </div>
+          </div>
+
+          <div class="product-price">
+            $20.95
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/img101.jpg" >
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Newly Launched BeatXP Flare Pro Smartwatch
+
+
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              126
+            </div>
+          </div>
+
+          <div class="product-price">
+            $10.99
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Adults Plain Cotton T-Shirt - 2 Pack
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              56
+            </div>
+          </div>
+
+          <div class="product-price">
+            $7.99
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/img2.jpg" >
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Newly Launched oppo Flare Pro Smartphone
+
+
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              126
+            </div>
+          </div>
+
+          <div class="product-price">
+            $30.99
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/img3.jpg">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            BeatXP Newly Launched
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              56
+            </div>
+          </div>
+
+          <div class="product-price">
+            $13.99
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/img4.jpg" >
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Newly Launched BeatXP Flare Pro Smartwatch
+
+
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              126
+            </div>
+          </div>
+
+          <div class="product-price">
+            $10.99
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/img5.jpg">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Smartwatch amozon-fit new Launched
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              56
+            </div>
+          </div>
+
+          <div class="product-price">
+            $7.99
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/img8.webp" >
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Newly Launched cycle tata
+
+
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              126
+            </div>
+          </div>
+
+          <div class="product-price">
+            $45.99
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/products/vanity-mirror-silver.jpg">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            vanity mirror silver 
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              56
+            </div>
+          </div>
+
+          <div class="product-price">
+            $7.99
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/img6.jpg" >
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Newly Launched BeatXP Flare Pro Smartwatch
+
+
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              126
+            </div>
+          </div>
+
+          <div class="product-price">
+            $13.99
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/products/6-piece-non-stick-baking-set.webp">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            6-piece-non-stick-baking-set 
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              56
+            </div>
+          </div>
+
+          <div class="product-price">
+            $4.99
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/img7.jpg" >
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Newly Launched BeatXP Flare Pro Smartwatch
+
+
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              126
+            </div>
+          </div>
+
+          <div class="product-price">
+            $10.99
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/products/men-athletic-shoes-green.jpg">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            men-athletic-shoes-green 
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              56
+            </div>
+          </div>
+
+          <div class="product-price">
+            $17.99
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/img8.webp" >
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+             hero new Launched bycyles
+
+
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              126
+            </div>
+          </div>
+
+          <div class="product-price">
+            $20.99
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/products/sky-flower-stud-earrings.webp">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+           sky-flower-stud-earrings 
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              56
+            </div>
+          </div>
+
+          <div class="product-price">
+            $2.99
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/img 10.jpg" >
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Newly Launched nano bicycles
+
+
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              126
+            </div>
+          </div>
+
+          <div class="product-price">
+            $1.99
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/products/straw-sunhat.webp">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Adults Plain Cotton hat- 2 Pack
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              56
+            </div>
+          </div>
+
+          <div class="product-price">
+            $7.99
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/img 11.webp" >
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Newly Launched  fridge 5 star
+
+
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              126
+            </div>
+          </div>
+
+          <div class="product-price">
+            $60.99
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/products/non-stick-cooking-set-15-pieces.webp">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            non-stick-cooking-set-15-pieces
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              56
+            </div>
+          </div>
+
+          <div class="product-price">
+            $10.99
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/img12.webp" >
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Newly Launched fridge Smartsettings
+
+
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              126
+            </div>
+          </div>
+
+          <div class="product-price">
+            $45.99
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/products/men-slim-fit-summer-shorts-gray.jpg">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            men-slim-fit-summer-shorts-gray
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              56
+            </div>
+          </div>
+
+          <div class="product-price">
+            $32.99
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/img13.webp" >
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Newly Launched LG Smartfridge
+
+
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              126
+            </div>
+          </div>
+
+          <div class="product-price">
+            $10.99
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-image"
+              src="images/products/women-stretch-popover-hoodie-black.jpg">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            men-slim-fit-summer-shorts-gray
+          </div>
+
+          <div class="product-rating-container">
+            <img class="product-rating-stars"
+              src="images/ratings/rating-45.png">
+            <div class="product-rating-count link-primary">
+              56
+            </div>
+          </div>
+
+          <div class="product-price">
+            $7.99
+          </div>
+
+          <div class="product-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="added-to-cart">
+            <img src="images/icons/checkmark.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
